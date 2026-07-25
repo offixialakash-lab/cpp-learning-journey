@@ -3,7 +3,7 @@ using namespace std;
 int main()
 
 {
-    //if u took int a then it converts char to their respective ascii values
+    //if u took int a then it converts char to their respective ascii value
     int a;
     cout<<"Enter your alphabet : ";
     cin>>a;
