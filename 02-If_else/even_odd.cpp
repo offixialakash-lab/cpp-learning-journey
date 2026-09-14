@@ -1,19 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
+
 int main()
 {
-    int num;
-    cout<<"Enter your number : ";
-    cin>>num;
-    
-    if(num%2==0)
-    {
-        cout<<"even";
-    }
 
-    else
-    {
-        cout<<"odd";
-    }
-    
+  int a;
+  cout<<"Enter your number: ";
+  cin>>a;
+  if(a%2==1 || a%2==-1)
+  {
+   cout<<"your number is odd!";
+  }
+  else
+  cout<<"your number is even";
+
 }

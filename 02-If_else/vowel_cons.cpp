@@ -1,22 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
+
 int main()
-
 {
-    //if u took int a then it converts char to their respective ascii value
-    int a;
-    cout<<"Enter your alphabet : ";
-    cin>>a;
+      char ch;
+      cout<<"Enter the alphabet : ";
+      cin>>ch;
 
-    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+      if(ch>='A'&& ch<='Z' || ch>='a'&&ch<='z')
+      {
+         if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+         {
+            cout<<"vowel";
+         }
+         
+         else
+         {
+            cout<<"consonant";
+         }
 
-    {
-        cout<<"vowel";
-    }
-    
-    else
-
-    {
-        cout<<"consonant";
-    }
+      }
+      else
+      {
+         cout<<"give the correct input";
+      } 
 }
