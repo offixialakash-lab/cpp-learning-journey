@@ -17,10 +17,12 @@ int main()
             if(a%i==0)
             {
                 cout<<"not prime ! ";
+                return 0;
             }
-            else
-            cout<<"prime";
         }
+        else
+        cout<<"prime";
+    
     }
 
 }
