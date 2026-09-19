@@ -10,17 +10,23 @@ int main()
     {
         cout<<"not prime";
     }
-    else
+    
+    else if(a==2)
     {
-        for(i=2;i<a;i++)
+        cout<<"prime";
+        return 0;
+    }
+    
+    {
+        for(int i=1;i<a;i++)
         {
             if(a%i==0)
-            {
+            {                                                 
                 cout<<"not prime ! ";
                 return 0;
             }
         }
-        else
+        
         cout<<"prime";
     
     }
