@@ -2,31 +2,25 @@
 using namespace std;
 int main()
 {
-    int fir=0,sec=1,cur,i,a;
+    int first=0,second=1,third=1,i,a;
     cout<<"Enter the number : ";
     cin>>a;
     {
         if(a<1)
         {
             cout<<"Enter valid number! ";
-
+101
         }
 
-        else if(a==1)
-        {
-            cout<<0;
-        }
-        else if(a==2)
-        {
-            cout<<1;
-        }
         else
         {   
-            for(i=3;i<=a;i++)
+            for(i=1;i<=a;i++)
             {
-            cur=fir+sec;
-            fir=sec;
-            sec=cur;
+           cout<<first<<endl;
+           first=second;
+           second=third;
+           third=first+second;
+
             }
         }
     
