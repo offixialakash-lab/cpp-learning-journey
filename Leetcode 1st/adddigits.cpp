@@ -2,22 +2,26 @@
 using namespace std;
 int main()
 {
-    int n,a,rem,ans=0;
+    int num,rem,ans=0;
     cout<<"Enter the number: ";
-    cin>>n;
-    a=n;
+    cin>>num;
+    
 
-    while(a>9)
-    {while(n!=0)
+    while(num>9)
     {
-        rem=n%10;
-        n/=10;
+        ans=0;//resets for each iteration
+
+        while(num!=0)
+    {
+        rem=num%10;
+        num/=10;
         ans=ans+rem;
     }
-    a=ans;
+
+    num=ans;
     }
   
-    cout<<a;
+    cout<<num;
 
 }
 
